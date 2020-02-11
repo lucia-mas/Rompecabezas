@@ -59,9 +59,6 @@ li::before {
 
 .col-60 {
   background: #E84A5F;
-  width:600px;
-  height: 600px;
-
 }
 
 #flecha{
@@ -72,18 +69,27 @@ li::before {
   text-align: center;
 }
 
+#juego {
+  width:600px;
+  height: 600px;
+}
+
 #juego div {
   text-align: center;
   animation: fadein 2s;
 }
 
-.col-60 img[src^='images/']{ 
+
+.piezasModulares {
   height:33%;
   width:33%;
   border: 1px solid #000;
-  float: left;
+  float:left;
 }
-
+.piezasModulares img {
+  width: 100%;
+  height: 100%;
+}
  
 @keyframes fadein {
   from { opacity: 0; }
